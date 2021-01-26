@@ -8,58 +8,65 @@ href="main.css"	/>
 </head>
 
 <body>
-<div	class="holder">
-	<div class="right">
-		<div	class="client">
-			<div class="right_top"> Залишилося </div>
-			<div class="right_middle"> 
-				<span class="items_left"> Помідори <span class="round"> 1 </span> </span>
-				<span class="items_left"> Печиво <span class="round"> 1 </span> </span>
-				<span class="items_left"> Сир <span class="round"> 1 </span> </span>
+	<div class = "container">
+		<div class = "left">
+			<div class = "left-1 std">
+				<input	type="text”	name="Good name" value="Назва товару" class="text-class">
+				<button data-tooltip = "Tooltip" type="button" class="add"> Додати </button>
 			</div>
-			<div class="right_bottom"> Куплено </div>
-			<div class="right_under_all"> </div>
-		</div>
-	</div>
-	<div class="left">
-		<div	class="goods">
-			<div class="find_goods">
-				<input	type="text”	name="Good name" value="Назва товару" class="text_class">
-				<button type="button" class="buy_button"> Додати </button>
-			</div>
-			<div class="buy">
-				<div class="general"> Помідори </div>
-				<div style="background-color: white; height: 30px; padding: 5px; 5px; 5px; 5px;">
-					<button type="button" class="cross"> x </button>
-					<button type="button" class="bought"> Куплено </button>
-					<button type="button" class="minus"> - </button>
-					<span class="number"> 1 </span>
-					<button type="button" class="plus"> + </button>
+			<div class = "left-2 std">
+				<div class = "left-2-1 std"> Помідори </div>
+				<div class = "left-2-2 std">
+					<button data-tooltip = "Tooltip" type="button" class="minus"> - </button>
+					<div class = "cur"> 1 </div>
+					<button data-tooltip = "Tooltip" type="button" class="plus"> + </button>
+				</div>
+				<div class = "left-2-3 std">
+					<button data-tooltip = "Tooltip" type="button" class="cross"> x </button>
+					<button data-tooltip = "Tooltip" type="button" class="bought"> Куплено </button>
 				</div>
 			</div>
-			<div class="buy">
-				<div class="general"> Печиво </div>
-				<div style="background-color: white; height: 30px; padding: 5px; 5px; 5px; 5px;">
-					<button type="button" class="cross"> x </button>
-					<button type="button" class="bought"> Куплено </button>
-					<button type="button" class="minus"> - </button>
-					<span class="number"> 1 </span>
-					<button type="button" class="plus"> + </button>
+			<div class = "left-2 std">
+				<div class = "left-2-1 std"> Печиво </div>
+				<div class = "left-2-2 std">
+					<button data-tooltip = "Tooltip" type="button" class="minus"> - </button>
+					<div class = "cur"> 1 </div>
+					<button data-tooltip = "Tooltip" type="button" class="plus"> + </button>
+				</div>
+				<div class = "left-2-3 std">
+					<button data-tooltip = "Tooltip" type="button" class="cross"> x </button>
+					<button data-tooltip = "Tooltip" type="button" class="bought"> Куплено </button>
 				</div>
 			</div>
-			<div class="buy">
-				<div class="general"> Сир </div>
-				<div style="background-color: white; height: 30px; padding: 5px; 5px; 5px; 5px;">
-					<button type="button" class="cross"> x </button>
-					<button type="button" class="bought"> Куплено </button>
-					<button type="button" class="minus"> - </button>
-					<span class="number"> 1 </span>
-					<button type="button" class="plus"> + </button>
+			<div class = "left-2 std">
+				<div class = "left-2-1 std"> Сир </div>
+				<div class = "left-2-2 std">
+					<button data-tooltip = "Tooltip" type="button" class="minus"> - </button>
+					<div class = "cur"> 1 </div>
+					<button data-tooltip = "Tooltip" type="button" class="plus"> + </button>
+				</div>
+				<div class = "left-2-3 std">
+					<button data-tooltip = "Tooltip" type="button" class="cross"> x </button>
+					<button data-tooltip = "Tooltip" type="button" class="bought"> Куплено </button>
 				</div>
 			</div>
 		</div>
+		<div class = "right">
+			<div class = "right-1" style = "border-top-left-radius: 5px; border-top-right-radius: 5px;"> Залишилося </div>
+			<div class = "right-2">
+				<span class = "items"> <span class = "item"> Помідори </span> <span class = "num-items"> 1 </span> </span>
+				<span class = "items"> <span class = "item"> Печиво </span> <span class = "num-items"> 1 </span> </span>
+				<span class = "items"> <span class = "item"> Сир </span> <span class = "num-items"> 1 </span> </span>
+			</div>
+			<div class = "right-1" style = "margin-top: 1px;"> Куплено </div>
+			<div class = "right-4"> </div>
+		</div>
 	</div>
-</div>
+	<div class = "badge">
+		<div class = "buy-list"> Buy List </div>
+		<div class = "creator">
+			<div class = "created-by"> Created by: </div>
+			<div class = "my-name"> Bohdan-Yarema Dekhtiar </div>
+		</div>
+	</div>
 </body>
-
-</html>
